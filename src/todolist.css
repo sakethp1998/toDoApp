@@ -1,0 +1,66 @@
+.todoContainer {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  text-align: center;
+  padding: 10px;
+}
+.todoTitle {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.todoInput {
+  padding: 20px;
+  background-color: #eee;
+  border-radius: 20px;
+}
+.inputText {
+  width: 70%;
+  padding: 10px;
+  margin-right: 15px;
+}
+.inputButton {
+  padding: 10px;
+  background-color: #f00;
+  color: white;
+  border-radius: 5px;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+}
+.listContainer {
+  margin-top: 20px;
+  text-align: left;
+}
+.list {
+  padding: 20px;
+  border-bottom: 1px dotted #ccc;
+  font-size: 18px;
+}
+.listButtons {
+  margin-top: 10px;
+}
+.btnClass {
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.completedClass {
+  background-color: #fc03ad;
+}
+.deletedClass {
+  background-color: #0ac0fc;
+}
+.strikeCompleted {
+  font-style: italic;
+  text-decoration: line-through;
+}
+.undoClass {
+  background-color: #fcbb0a;
+}
