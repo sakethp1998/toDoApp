@@ -19,7 +19,8 @@ class ToDoListComponent extends Component {
             listArr.push({taskName : this.state.addTask, completed : false})
 
             this.setState({
-                toDoListItems : listArr
+                toDoListItems : listArr,
+                addTask : ''
             })
         }
 
@@ -66,7 +67,7 @@ class ToDoListComponent extends Component {
 
                 </div>
                 <div className="todoInput" >
-                    <input type="text"  className="inputText" onChange={e => this.getToDo(e.target.value)} placeholder="Enter To Do"></input>
+                    <input type="text"  className="inputText" onChange={e => this.getToDo(e.target.value)} value={this.state.addTask} placeholder="Enter To Do"></input>
                     <input type="button" className="inputButton" onClick={this.addToDoTask} value="Add"/>
                 </div>
                 <div className="listContainer">
